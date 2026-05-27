@@ -1,0 +1,239 @@
+{
+  "task": "MUSHRA-style separation quality",
+  "scale": [
+    0,
+    100
+  ],
+  "rate_label": "Quality/naturalness vs reference",
+  "conditions_legend": {
+    "vespa": "VESPA (ours)",
+    "convtasnet": "ConvTasNet",
+    "sepformer": "SepFormer",
+    "tfgridnet": "TF-GridNet",
+    "anchor_mixture": "anchor (mixture)",
+    "reference": "hidden reference"
+  },
+  "items": [
+    {
+      "id": "punk_rock_kaerutokumo_te_ba_v1",
+      "voice_count": 2,
+      "conditions": [
+        "reference",
+        "anchor_mixture",
+        "vespa",
+        "convtasnet",
+        "sepformer",
+        "tfgridnet"
+      ],
+      "reference": "reference",
+      "anchor": "anchor_mixture",
+      "rate": [
+        "reference",
+        "anchor_mixture",
+        "vespa",
+        "convtasnet",
+        "sepformer",
+        "tfgridnet"
+      ]
+    },
+    {
+      "id": "punk_rock_kaerutokumo_te_ba_v2",
+      "voice_count": 2,
+      "conditions": [
+        "reference",
+        "anchor_mixture",
+        "vespa",
+        "convtasnet",
+        "sepformer",
+        "tfgridnet"
+      ],
+      "reference": "reference",
+      "anchor": "anchor_mixture",
+      "rate": [
+        "reference",
+        "anchor_mixture",
+        "vespa",
+        "convtasnet",
+        "sepformer",
+        "tfgridnet"
+      ]
+    },
+    {
+      "id": "reggae_shoujoujinotanukibayashi_al_te_v1",
+      "voice_count": 2,
+      "conditions": [
+        "reference",
+        "anchor_mixture",
+        "vespa",
+        "convtasnet",
+        "sepformer",
+        "tfgridnet"
+      ],
+      "reference": "reference",
+      "anchor": "anchor_mixture",
+      "rate": [
+        "reference",
+        "anchor_mixture",
+        "vespa",
+        "convtasnet",
+        "sepformer",
+        "tfgridnet"
+      ]
+    },
+    {
+      "id": "reggae_shoujoujinotanukibayashi_al_te_v2",
+      "voice_count": 2,
+      "conditions": [
+        "reference",
+        "anchor_mixture",
+        "vespa",
+        "convtasnet",
+        "sepformer",
+        "tfgridnet"
+      ],
+      "reference": "reference",
+      "anchor": "anchor_mixture",
+      "rate": [
+        "reference",
+        "anchor_mixture",
+        "vespa",
+        "convtasnet",
+        "sepformer",
+        "tfgridnet"
+      ]
+    },
+    {
+      "id": "enka_koujounotsuki_le_al_ba_v1",
+      "voice_count": 3,
+      "conditions": [
+        "reference",
+        "anchor_mixture",
+        "vespa",
+        "convtasnet",
+        "sepformer",
+        "tfgridnet"
+      ],
+      "reference": "reference",
+      "anchor": "anchor_mixture",
+      "rate": [
+        "reference",
+        "anchor_mixture",
+        "vespa",
+        "convtasnet",
+        "sepformer",
+        "tfgridnet"
+      ]
+    },
+    {
+      "id": "enka_koujounotsuki_le_al_ba_v2",
+      "voice_count": 3,
+      "conditions": [
+        "reference",
+        "anchor_mixture",
+        "vespa",
+        "convtasnet",
+        "sepformer",
+        "tfgridnet"
+      ],
+      "reference": "reference",
+      "anchor": "anchor_mixture",
+      "rate": [
+        "reference",
+        "anchor_mixture",
+        "vespa",
+        "convtasnet",
+        "sepformer",
+        "tfgridnet"
+      ]
+    },
+    {
+      "id": "enka_koujounotsuki_le_al_ba_v3",
+      "voice_count": 3,
+      "conditions": [
+        "reference",
+        "anchor_mixture",
+        "vespa",
+        "convtasnet",
+        "sepformer",
+        "tfgridnet"
+      ],
+      "reference": "reference",
+      "anchor": "anchor_mixture",
+      "rate": [
+        "reference",
+        "anchor_mixture",
+        "vespa",
+        "convtasnet",
+        "sepformer",
+        "tfgridnet"
+      ]
+    },
+    {
+      "id": "punk_rock_kaerutokumo_so_te_ba_v1",
+      "voice_count": 3,
+      "conditions": [
+        "reference",
+        "anchor_mixture",
+        "vespa",
+        "convtasnet",
+        "sepformer",
+        "tfgridnet"
+      ],
+      "reference": "reference",
+      "anchor": "anchor_mixture",
+      "rate": [
+        "reference",
+        "anchor_mixture",
+        "vespa",
+        "convtasnet",
+        "sepformer",
+        "tfgridnet"
+      ]
+    },
+    {
+      "id": "punk_rock_kaerutokumo_so_te_ba_v2",
+      "voice_count": 3,
+      "conditions": [
+        "reference",
+        "anchor_mixture",
+        "vespa",
+        "convtasnet",
+        "sepformer",
+        "tfgridnet"
+      ],
+      "reference": "reference",
+      "anchor": "anchor_mixture",
+      "rate": [
+        "reference",
+        "anchor_mixture",
+        "vespa",
+        "convtasnet",
+        "sepformer",
+        "tfgridnet"
+      ]
+    },
+    {
+      "id": "punk_rock_kaerutokumo_so_te_ba_v3",
+      "voice_count": 3,
+      "conditions": [
+        "reference",
+        "anchor_mixture",
+        "vespa",
+        "convtasnet",
+        "sepformer",
+        "tfgridnet"
+      ],
+      "reference": "reference",
+      "anchor": "anchor_mixture",
+      "rate": [
+        "reference",
+        "anchor_mixture",
+        "vespa",
+        "convtasnet",
+        "sepformer",
+        "tfgridnet"
+      ]
+    }
+  ],
+  "note": "MUSHRA: rate set includes a hidden reference (should be ~100) and a mixture anchor (should be low)."
+}
